@@ -5,7 +5,7 @@ int main(void) {
 	char ch = 127;
 
 	printf("ch=[%d]\n", ch);
-	printf("ch+1=[%d]\n", ch + 1); /*자동형 변환 => 문자상태로 강제 변환*/
+	printf("ch+1=[%d]\n", (char)(ch + 1)); /*자동형 변환 => 문자상태로 강제 변환*/ //오버플로우 형상 자료형 변수의 범위를 초과하는 값을 저장할 경우//
 
 	return 0;
 

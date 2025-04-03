@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void){
+	int dataA = 100 , dataB;
+
+	printf("dataA변수에 초기화 된 값:%d\n", dataA);
+	/*printf("dataA변수에 초기화 된 값:%d\n", dataB);*/
+
+	return 0;
+}

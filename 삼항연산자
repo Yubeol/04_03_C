@@ -1,0 +1,21 @@
+//사용방법 (변수
+#include <stdio.h>
+
+int main(void) {
+
+	/*char check = 'y';
+
+	printf("가?안가?(y/n): ");
+	scanf_s("%c", &check, 1);
+
+	printf("가? %s\n", (check == 'y') ? "응" : "아니");*/
+	int result, in;
+
+	printf("얼마?(정수): ");
+	scanf_s("%d", &in);
+	result = (in > 1000) ? 100 : in / 20;
+	printf("%d의 포인트는 %d\n", in, result);
+
+	
+	return 0;
+}

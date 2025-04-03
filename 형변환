@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+
+	char ch = 127;
+
+	printf("ch=[%d]\n", ch);
+	printf("ch+1=[%d]\n", (char)(ch + 1)); /*자동형 변환 => 문자상태로 강제 변환: 명시적 형변환*/
+
+	ch = -127;
+	printf("ch+1=[%d]\n", (char)(ch + 1)); /*선택적 형변환*/
+
+	return 0;
+
+}

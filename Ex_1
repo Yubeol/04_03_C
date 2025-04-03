@@ -1,10 +1,13 @@
 #include <stdio.h>
 
 int main(void){
-	int dataA = 100 , dataB;
+	int dataA = 100 , dataB; /*초기화 하자 않으면 널(null)겂아 존재*/
 
-	printf("dataA변수에 초기화 된 값:%d\n", dataA);
-	/*printf("dataA변수에 초기화 된 값:%d\n", dataB);*/
+	dataB = 200;
+	dataA += 10;
+
+	printf("dataA변수에 초기화 된 값:%d\n", dataA); 
+	printf("dataB변수에 초기화 된 값:%d\n", dataB);
 
 	return 0;
 }

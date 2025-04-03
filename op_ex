@@ -8,7 +8,7 @@ int main(void) {
 	int num;
 
 	printf("정수를 입력: ");
-	scanf("%d", &num);
+	scanf_s("%d", &num);
 
 	if (num % 2 == 0 && num % 3 == 0) {
 		printf("%d는 6의 배수입니다.\n", num);

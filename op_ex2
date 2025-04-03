@@ -9,7 +9,7 @@ int main(void) {
 	printf("년도: ");
 	scanf_s("%d", &year);
 
-	printf("%d은 %s윤년입니다.\n", year, (year % 400 == 0 || (year % 4 == 0 && year % 100 != 1)) ? "윤" : "비");
+	printf("%d년은 %s윤년입니다.\n", year, (year % 400 == 0 || (year % 4 == 0 && year % 100 != 1)) ? "" : "비");
 
 	return 0;
 }

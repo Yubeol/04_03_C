@@ -9,6 +9,8 @@ int main(void) {
 	scanf_s("%d", &r);
 	/*printf("반지름이 %d인 원의 둘래: %.2lf\n", r, r*2*3.14);*/
 	printf("반지름이 %d인 원의 둘래: %.2lf\n", r, r * 2 * PI);
+	printf("반지름이 %d인 원의 넓이: %.2lf\n", r, r * r * PI);
+	printf("반지름이 %d인 구의 부피: %.2lf\n", r, 4/3 * r * r * r * PI);
 
 	return 0;
 

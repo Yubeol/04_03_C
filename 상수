@@ -1,0 +1,15 @@
+#define PI 3.14 /*메크로 상수, 기억공간 차지하지 않는다*/
+#include <stdio.h>
+
+int main(void) {
+
+	char r;
+
+	printf("반지름 입력: ");
+	scanf_s("%d", &r);
+	/*printf("반지름이 %d인 원의 둘래: %.2lf\n", r, r*2*3.14);*/
+	printf("반지름이 %d인 원의 둘래: %.2lf\n", r, r * 2 * PI);
+
+	return 0;
+
+}

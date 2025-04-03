@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main(void) {
+
+	int cap;
+
+	printf("숫자: ");
+	scanf_s("%d", &cap);
+	printf("%d+10=%d\n", cap, cap + 10);
+
+	return 0;
+}
